@@ -1,0 +1,17 @@
+Expected time for this test: 60 minutes.
+
+Instructions:
+- Database is resetted on each startup for testing purposes.
+- Install composer dependencies.
+- Rename `.env.example` to `.env` and set your local mysql server credentials.
+- To startup a server locally, run `php -S 127.0.0.1:8080 -t src/` from project rootdir.
+- For a simple check, run `php src/index.php` from project rootdir.
+- To check phpunit test case state, run `vendor/bin/phpunit` from project rootdir.
+
+Requirements:
+1. Make neccesary adjustments so that phpunit test cases pass.
+2. Do any code changes that you think:
+    - Are not up to latest standards,
+    - Have underlying vulnerbilities,
+    - Or there's a better way of doing it
+3. (optional) Improve performance of current database schema in database.sql.

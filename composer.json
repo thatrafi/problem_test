@@ -1,0 +1,29 @@
+{
+    "name": "mobymax/php-test",
+    "keywords": ["mobymax", "test"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mobymax\\ProblemTest\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Mobymax\\ProblemTest\\": "tests"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2"
+        },
+        "sort-packages": true
+    }
+}
